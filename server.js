@@ -44,7 +44,15 @@ connectDB().then(() => {
     createAdminUser();
 });
 
-app.use(cors());
+app.use(cors({
+    origin: [
+        "http://localhost:5173",
+        "https://react-frontend-ecom-nine.vercel.app/login"
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true
+}));
+
 app.use(express.json());
 
 app.use('/auth', authRouter);
@@ -53,6 +61,6 @@ app.use('/products', authMiddleware, productsRouter);
 app.use('/carts', authMiddleware, cartRouter);
 app.use('/orders', authMiddleware, ordersRouter);
 
-app.listen(3000, "0.0.0.0", () => {
-    console.log("Server running on port 3000");
+app.listen(process.env.PORT, "0.0.0.0", () => {
+    console.log(`Server running on port ${process.env.PORT}`);
 });
