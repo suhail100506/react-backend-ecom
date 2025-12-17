@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "693c51ed1303f9444eaaca07",
+    "name": "Mobile",
+    "image": "https://www.sathya.store/img/product/FAb9jtNpEjJeGtMP.png",
+    "price": 54000,
+    "originalPrice": 49993,
+    "description": "",
+    "category": "Electronics",
+    "stock": 0,
+    "createdAt": "2025-12-12T17:33:33.632Z",
+    "updatedAt": "2025-12-12T17:33:33.632Z",
+    "__v": 0
+  },
+  {
+    "_id": "693c51ed1303f9444eaaca07",
+    "name": "Mobile",
+    "image": "https://www.sathya.store/img/product/FAb9jtNpEjJeGtMP.png",
+    "price": 54000,
+    "originalPrice": 49993,
+    "description": "",
+    "category": "Electronics",
+    "stock": 0,
+    "createdAt": "2025-12-12T17:33:33.632Z",
+    "updatedAt": "2025-12-12T17:33:33.632Z",
+    "__v": 0
+  },
+  {
+    "_id": "693cdce4cef29b9af7c5052a",
+    "name": "Mobile",
+    "image": "https://www.sathya.store/img/product/FAb9jtNpEjJeGtMP.png",
+    "price": 54000,
+    "originalPrice": 49993,
+    "description": "",
+    "category": "Electronics",
+    "stock": 0,
+    "createdAt": "2025-12-12T17:33:33.632Z",
+    "updatedAt": "2025-12-12T17:33:33.632Z",
+    "__v": 0
+  },
+  {
+    "_id": "693cdf5b6e7225e55c562c65",
+    "name": "One Plus Nord 4",
+    "image": "data:image/avif;base64,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",
+    "price": 29000,
+    "originalPrice": 32499,
+    "description": "",
+    "category": "Electronics",
+    "stock": 0,
+    "createdAt": "2025-12-13T03:36:59.785Z",
+    "updatedAt": "2025-12-13T03:36:59.785Z",
+    "__v": 0
+  }
+]
