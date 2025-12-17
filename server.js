@@ -47,7 +47,7 @@ connectDB().then(() => {
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://react-frontend-ecom-nine.vercel.app/login"
+        "https://react-frontend-ecom-nine.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
